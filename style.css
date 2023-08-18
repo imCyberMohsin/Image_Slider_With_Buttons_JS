@@ -1,0 +1,51 @@
+/*? Image Slider CSS  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #515151;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_container {
+    width: 70%;
+    height: 70vh;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px rgb(30, 30, 30);
+    background: url(./img/image1.jpg);
+    background-size: cover;
+}
+
+.buttons {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 0 1%;
+}
+
+.btn {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 100;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
